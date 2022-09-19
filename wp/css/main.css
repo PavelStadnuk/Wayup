@@ -1,0 +1,177 @@
+body {
+	font-family: 'Open Sans', regular;
+	padding: 0;
+	margin: 0;
+	font-size: 15px;
+	overflow-x: hidden;
+}
+h1,
+h2,
+h3 {
+	font-family: 'Ubuntu', bold;
+	font-weight: 400px;
+	font-size: 30px;
+}
+.p {
+	line-height: 1.6m;
+}
+.conteiner {
+	max-width: 1170px;
+	margin: 0 auto;
+}
+.header {
+	background: #3790d9;
+	background: -webkit-linear-gradient(to top left, #3790d9 0%, #4dbefe 100%);
+	background: -moz-linear-gradient(to top left, #3790d9 0%, #4dbefe 100%);
+	background: linear-gradient(to top left, #3790d9 0%, #4dbefe 100%);
+	padding-top: 80px;
+	color: #fff;
+	padding-bottom: 150px;
+}
+.wraper {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.offer {
+	width: 566px;
+}
+.title {
+	font-size: 37px;
+}
+.title span {
+	font-size: 59px;
+}
+.intro {
+	margin-top: 30px;
+	margin-bottom: 48px;
+	max-height: 415px;
+}
+.btn {
+	font-family: 'Montserrat', Black;
+	background: #ffd429;
+	color: black;
+	display: block;
+	width: 225px;
+	padding: 23px 0;
+	text-align: center;
+	text-decoration: none;
+	transition: all 0.5s ease;
+}
+.kruis {
+	margin-top: 82px;
+}
+.btn:hover {
+	background: #d9860e;
+}
+.learn {
+	margin-top: 115px;
+	margin-bottom: 120px;
+}
+.sectiom-title {
+	text-align: center;
+}
+.skills {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 90px;
+}
+.skill {
+	font-family: 'Ubuntu', regular;
+	text-align: center;
+	width: 305px;
+	background: url(../img/icon1.jpg) no-repeat top center;
+	padding-top: 60px;
+}
+.skill-title {
+	font-size: 19px;
+}
+.skill-text {
+	margin-top: 7px;
+}
+.skill-free {
+	width: 265px;
+	background: url(../img/icon2.jpg) no-repeat top center;
+}
+.skill-change {
+	background: url(../img/icon3.jpg) no-repeat top center;
+}
+.mail {
+	background: #ecf3f8;
+	padding-top: 110px;
+	padding-bottom: 105px;
+}
+.form {
+	margin-top: 70px;
+	width: 345px;
+	margin: 0 auto;
+}
+.input {
+	font-size: 15px;
+	font-family: 'Ubuntu', regular;
+	border: 1px solid #bbbbbb;
+	width: 300px;
+	margin-top: 25px;
+	padding: 15px 30px;
+}
+.send {
+	margin-top: 25px;
+	width: 362px;
+}
+.footer {
+	padding: 62px 0;
+	background: #164d7a;
+}
+.credits {
+	font-size: 14px;
+	text-align: center;
+	color: #ffffff;
+}
+
+@media screen and (max-width: 1200px) {
+	.conteiner {
+		width: 960px;
+	}
+}
+@media screen and (max-width: 992px) {
+	.conteiner {
+		width: 720px;
+	}
+	.wraper {
+		flex-direction: column;
+	}
+	.offer {
+		width: auto;
+	}
+	.intro {
+		width: auto;
+	}
+}
+@media screen and (max-width: 768px) {
+	.conteiner {
+		width: 540px;
+	}
+	.skills {
+		flex-direction: column;
+		margin-bottom: 20px;
+		align-items: center;
+	}
+	.input {
+		width: auto;
+	}
+}
+@media screen and (max-width: 576px) {
+	.conteiner {
+		width: 90%;
+	}
+	.kruis {
+		display: block;
+		width: 90%;
+	}
+	.input {
+		width: auto;
+	}
+	.send {
+		width: 78%;
+	}
+}
